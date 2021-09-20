@@ -33,7 +33,7 @@ import (
 	"go.etcd.io/etcd/pkg/transport"
 	"go.etcd.io/etcd/pkg/types"
 
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/pkg/capnslog"
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap"
 )

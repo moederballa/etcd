@@ -23,7 +23,7 @@ import (
 	"go.etcd.io/etcd/mvcc/backend"
 	"go.etcd.io/etcd/pkg/types"
 
-	"github.com/coreos/go-semver/semver"
+	"github.com/moederballa/coreos/go-semver/semver"
 )
 
 const (

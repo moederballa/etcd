@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/pkg/capnslog"
 	"go.uber.org/zap"
 )
 

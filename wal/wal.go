@@ -31,7 +31,7 @@ import (
 	"go.etcd.io/etcd/raft/raftpb"
 	"go.etcd.io/etcd/wal/walpb"
 
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/pkg/capnslog"
 	"go.uber.org/zap"
 )
 

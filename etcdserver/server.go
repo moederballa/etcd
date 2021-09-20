@@ -57,8 +57,8 @@ import (
 	"go.etcd.io/etcd/version"
 	"go.etcd.io/etcd/wal"
 
-	"github.com/coreos/go-semver/semver"
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/go-semver/semver"
+	"github.com/moederballa/coreos/pkg/capnslog"
 	humanize "github.com/dustin/go-humanize"
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"

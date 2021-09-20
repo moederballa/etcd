@@ -42,7 +42,7 @@ import (
 	"go.etcd.io/etcd/pkg/types"
 	"go.etcd.io/etcd/version"
 
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/pkg/capnslog"
 	"github.com/grpc-ecosystem/go-grpc-prometheus"
 	"github.com/soheilhy/cmux"
 	"go.uber.org/zap"

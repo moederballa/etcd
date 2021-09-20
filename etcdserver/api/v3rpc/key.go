@@ -23,7 +23,7 @@ import (
 	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
 	"go.etcd.io/etcd/pkg/adt"
 
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/pkg/capnslog"
 )
 
 var (

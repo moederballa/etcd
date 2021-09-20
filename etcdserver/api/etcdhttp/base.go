@@ -28,7 +28,7 @@ import (
 	"go.etcd.io/etcd/pkg/logutil"
 	"go.etcd.io/etcd/version"
 
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/pkg/capnslog"
 	"go.uber.org/zap"
 )
 

@@ -26,7 +26,7 @@ import (
 	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
 	"go.etcd.io/etcd/pkg/types"
 
-	"github.com/coreos/go-semver/semver"
+	"github.com/moederballa/coreos/go-semver/semver"
 	"go.uber.org/zap"
 )
 

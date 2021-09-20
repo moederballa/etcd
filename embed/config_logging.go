@@ -26,7 +26,7 @@ import (
 
 	"go.etcd.io/etcd/pkg/logutil"
 
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/pkg/capnslog"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"google.golang.org/grpc"

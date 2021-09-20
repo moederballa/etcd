@@ -28,7 +28,7 @@ import (
 	"go.etcd.io/etcd/raft"
 	"go.etcd.io/etcd/raft/raftpb"
 
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/pkg/capnslog"
 	"github.com/xiang90/probing"
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"

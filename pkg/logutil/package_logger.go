@@ -15,7 +15,7 @@
 package logutil
 
 import (
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/pkg/capnslog"
 	"google.golang.org/grpc/grpclog"
 )
 

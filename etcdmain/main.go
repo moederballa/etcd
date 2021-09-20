@@ -19,8 +19,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/coreos/go-systemd/daemon"
-	systemdutil "github.com/coreos/go-systemd/util"
+	"github.com/moederballa/coreos/go-systemd/daemon"
+	systemdutil "github.com/moederballa/coreos/go-systemd/util"
 	"go.uber.org/zap"
 )
 

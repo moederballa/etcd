@@ -38,7 +38,7 @@ import (
 	"go.etcd.io/etcd/proxy/httpproxy"
 	"go.etcd.io/etcd/version"
 
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/pkg/capnslog"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )

@@ -27,7 +27,7 @@ import (
 	"go.etcd.io/etcd/pkg/types"
 	"go.etcd.io/etcd/version"
 
-	"github.com/coreos/go-semver/semver"
+	"github.com/moederballa/coreos/go-semver/semver"
 )
 
 var (

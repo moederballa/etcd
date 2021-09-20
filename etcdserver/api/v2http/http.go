@@ -25,7 +25,7 @@ import (
 	"go.etcd.io/etcd/etcdserver/api/v2http/httptypes"
 	"go.etcd.io/etcd/pkg/logutil"
 
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/pkg/capnslog"
 	"go.uber.org/zap"
 )
 

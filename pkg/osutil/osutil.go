@@ -19,7 +19,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/pkg/capnslog"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 
 	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
 
-	"github.com/coreos/pkg/capnslog"
+	"github.com/moederballa/coreos/pkg/capnslog"
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap"
 )

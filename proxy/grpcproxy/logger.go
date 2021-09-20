@@ -14,6 +14,6 @@
 
 package grpcproxy
 
-import "github.com/coreos/pkg/capnslog"
+import "github.com/moederballa/coreos/pkg/capnslog"
 
 var plog = capnslog.NewPackageLogger("go.etcd.io/etcd", "grpcproxy")
