@@ -17,7 +17,7 @@ package v2stats
 
 import "github.com/moederballa/coreos/pkg/capnslog"
 
-var plog = capnslog.NewPackageLogger("go.etcd.io/etcd", "etcdserver/stats")
+var plog = capnslog.NewPackageLogger("github.com/moederballa/etcd", "etcdserver/stats")
 
 type Stats interface {
 	// SelfStats returns the struct representing statistics of this server

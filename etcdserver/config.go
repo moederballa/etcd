@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/pkg/netutil"
-	"go.etcd.io/etcd/pkg/transport"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/moederballa/etcd/pkg/netutil"
+	"github.com/moederballa/etcd/pkg/transport"
+	"github.com/moederballa/etcd/pkg/types"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
@@ -96,7 +96,7 @@ type ServerConfig struct {
 	//
 	// If single-node, it advances ticks regardless.
 	//
-	// See https://go.etcd.io/etcd/issues/9333 for more detail.
+	// See https://github.com/moederballa/etcd/issues/9333 for more detail.
 	InitialElectionTickAdvance bool
 
 	BootstrapTimeout time.Duration

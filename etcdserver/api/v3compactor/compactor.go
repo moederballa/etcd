@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"time"
 
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
+	pb "github.com/moederballa/etcd/etcdserver/etcdserverpb"
 
 	"github.com/moederballa/coreos/pkg/capnslog"
 	"github.com/jonboulle/clockwork"
@@ -27,7 +27,7 @@ import (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("go.etcd.io/etcd", "compactor")
+	plog = capnslog.NewPackageLogger("github.com/moederballa/etcd", "compactor")
 )
 
 const (

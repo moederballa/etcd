@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/mvcc"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/moederballa/etcd/clientv3"
+	"github.com/moederballa/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/moederballa/etcd/etcdserver/etcdserverpb"
+	"github.com/moederballa/etcd/mvcc"
+	"github.com/moederballa/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

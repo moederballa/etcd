@@ -18,12 +18,12 @@ import (
 	"context"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api"
-	"go.etcd.io/etcd/etcdserver/api/membership"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/moederballa/etcd/etcdserver"
+	"github.com/moederballa/etcd/etcdserver/api"
+	"github.com/moederballa/etcd/etcdserver/api/membership"
+	"github.com/moederballa/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/moederballa/etcd/etcdserver/etcdserverpb"
+	"github.com/moederballa/etcd/pkg/types"
 )
 
 type ClusterServer struct {

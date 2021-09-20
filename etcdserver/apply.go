@@ -21,12 +21,12 @@ import (
 	"sort"
 	"time"
 
-	"go.etcd.io/etcd/auth"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/mvcc"
-	"go.etcd.io/etcd/mvcc/mvccpb"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/moederballa/etcd/auth"
+	pb "github.com/moederballa/etcd/etcdserver/etcdserverpb"
+	"github.com/moederballa/etcd/lease"
+	"github.com/moederballa/etcd/mvcc"
+	"github.com/moederballa/etcd/mvcc/mvccpb"
+	"github.com/moederballa/etcd/pkg/types"
 
 	"github.com/gogo/protobuf/proto"
 	"go.uber.org/zap"

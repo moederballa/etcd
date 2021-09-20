@@ -15,9 +15,9 @@
 package mvcc
 
 import (
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/mvcc/backend"
-	"go.etcd.io/etcd/mvcc/mvccpb"
+	"github.com/moederballa/etcd/lease"
+	"github.com/moederballa/etcd/mvcc/backend"
+	"github.com/moederballa/etcd/mvcc/mvccpb"
 	"go.uber.org/zap"
 )
 

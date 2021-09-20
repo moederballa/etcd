@@ -28,7 +28,7 @@ import (
 	"time"
 
 	"github.com/ugorji/go/codec"
-	"go.etcd.io/etcd/pkg/pathutil"
+	"github.com/moederballa/etcd/pkg/pathutil"
 )
 
 const (

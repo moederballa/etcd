@@ -17,13 +17,13 @@ package etcdserver
 import (
 	"io"
 
-	"go.etcd.io/etcd/etcdserver/api/snap"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/pkg/pbutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/wal"
-	"go.etcd.io/etcd/wal/walpb"
+	"github.com/moederballa/etcd/etcdserver/api/snap"
+	pb "github.com/moederballa/etcd/etcdserver/etcdserverpb"
+	"github.com/moederballa/etcd/pkg/pbutil"
+	"github.com/moederballa/etcd/pkg/types"
+	"github.com/moederballa/etcd/raft/raftpb"
+	"github.com/moederballa/etcd/wal"
+	"github.com/moederballa/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

@@ -19,14 +19,14 @@ import (
 	"crypto/sha256"
 	"io"
 
-	"go.etcd.io/etcd/auth"
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/mvcc"
-	"go.etcd.io/etcd/mvcc/backend"
-	"go.etcd.io/etcd/raft"
-	"go.etcd.io/etcd/version"
+	"github.com/moederballa/etcd/auth"
+	"github.com/moederballa/etcd/etcdserver"
+	"github.com/moederballa/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/moederballa/etcd/etcdserver/etcdserverpb"
+	"github.com/moederballa/etcd/mvcc"
+	"github.com/moederballa/etcd/mvcc/backend"
+	"github.com/moederballa/etcd/raft"
+	"github.com/moederballa/etcd/version"
 
 	"go.uber.org/zap"
 )

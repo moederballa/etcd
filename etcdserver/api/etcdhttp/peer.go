@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api"
-	"go.etcd.io/etcd/etcdserver/api/rafthttp"
-	"go.etcd.io/etcd/lease/leasehttp"
+	"github.com/moederballa/etcd/etcdserver"
+	"github.com/moederballa/etcd/etcdserver/api"
+	"github.com/moederballa/etcd/etcdserver/api/rafthttp"
+	"github.com/moederballa/etcd/lease/leasehttp"
 
 	"go.uber.org/zap"
 )

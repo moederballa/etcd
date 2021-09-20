@@ -18,8 +18,8 @@ import (
 	"context"
 	"sync"
 
-	"go.etcd.io/etcd/clientv3"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
+	"github.com/moederballa/etcd/clientv3"
+	pb "github.com/moederballa/etcd/etcdserver/etcdserverpb"
 )
 
 // watchBroadcast broadcasts a server watcher to many client watchers.

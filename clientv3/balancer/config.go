@@ -15,7 +15,7 @@
 package balancer
 
 import (
-	"go.etcd.io/etcd/clientv3/balancer/picker"
+	"github.com/moederballa/etcd/clientv3/balancer/picker"
 
 	"go.uber.org/zap"
 )

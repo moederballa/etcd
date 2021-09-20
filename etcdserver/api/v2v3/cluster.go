@@ -15,8 +15,8 @@
 package v2v3
 
 import (
-	"go.etcd.io/etcd/etcdserver/api/membership"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/moederballa/etcd/etcdserver/api/membership"
+	"github.com/moederballa/etcd/pkg/types"
 
 	"github.com/moederballa/coreos/go-semver/semver"
 )

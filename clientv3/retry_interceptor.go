@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/grpc-ecosystem/go-grpc-middleware/util/backoffutils"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/moederballa/etcd/etcdserver/api/v3rpc/rpctypes"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

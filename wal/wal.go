@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/pkg/fileutil"
-	"go.etcd.io/etcd/pkg/pbutil"
-	"go.etcd.io/etcd/raft"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/wal/walpb"
+	"github.com/moederballa/etcd/pkg/fileutil"
+	"github.com/moederballa/etcd/pkg/pbutil"
+	"github.com/moederballa/etcd/raft"
+	"github.com/moederballa/etcd/raft/raftpb"
+	"github.com/moederballa/etcd/wal/walpb"
 
 	"github.com/moederballa/coreos/pkg/capnslog"
 	"go.uber.org/zap"
@@ -54,7 +54,7 @@ var (
 	// so that tests can set a different segment size.
 	SegmentSizeBytes int64 = 64 * 1000 * 1000 // 64MB
 
-	plog = capnslog.NewPackageLogger("go.etcd.io/etcd", "wal")
+	plog = capnslog.NewPackageLogger("github.com/moederballa/etcd", "wal")
 
 	ErrMetadataConflict = errors.New("wal: conflicting metadata found")
 	ErrFileNotFound     = errors.New("wal: file not found")
